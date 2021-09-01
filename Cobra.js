@@ -118,7 +118,7 @@ const soyYo = client.user.jid
 
 const botNumber = client.user.jid.split("@")[0]
 
-const ownerNumber = ['########@s.whatsapp.net']
+const ownerNumber = ['526971147890@s.whatsapp.net']
 
 const isGroup = from.endsWith('@g.us')
 
