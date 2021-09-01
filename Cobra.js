@@ -2,7 +2,7 @@ const { WAConnection, MessageType } = require('@adiwajshing/baileys');
 
 const fs = require('fs');
 
-const prefix = '.'
+const prefix = '$'
 
 async function iniciar () { 
 
