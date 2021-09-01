@@ -1,0 +1,23 @@
+{
+
+  "name": "Cobra",
+
+  "version": "0.0.0",
+
+  "description": "",
+
+  "main": "Cobra.js",
+
+  "scripts": {
+
+  "start": "node Cobra.js"
+
+  },
+
+  "dependencies": {
+
+    "@adiwajshing/baileys": "^3.4.1"
+
+  }
+
+}
