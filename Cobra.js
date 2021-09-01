@@ -20,7 +20,7 @@ async function iniciar () {
 
 //crear un archivo Json para guardar información: ID del cliente, Token y Keys del cliente y del SERVER.
 
-        fs.existsSync('./Samu330.json') && client.loadAuthInfo('./Samu330.json')
+        fs.existsSync('./Cobra.json') && client.loadAuthInfo('./Cobra.json')
 
 //Conectando o reconectando
 
@@ -40,7 +40,7 @@ async function iniciar () {
 
         await client.connect({timeoutMs: 30*1000})
 
-        fs.writeFileSync('./Samu330.json', JSON.stringify(client.base64EncodedAuthInfo(), null, '\t'))
+        fs.writeFileSync('./Cobra.json', JSON.stringify(client.base64EncodedAuthInfo(), null, '\t'))
 
         
 
